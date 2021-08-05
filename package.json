@@ -1,0 +1,9 @@
+{
+  "name": "restApi",
+  "version": "1.0.0",
+  "description": "restApi use to create rest full api ",
+  "main": "index.js",
+  "author": "Devendra",
+  "license": "MIT",
+  "private": null
+}
