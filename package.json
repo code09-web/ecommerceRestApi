@@ -5,5 +5,20 @@
   "main": "index.js",
   "author": "Devendra",
   "license": "MIT",
-  "private": null
+  "private": null,
+  "scripts": {
+    "dev": "nodemon -r esm server.js",
+    "start": "node server"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "mongoose": "^5.13.6"
+  }
 }
